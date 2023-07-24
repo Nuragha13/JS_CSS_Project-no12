@@ -5,8 +5,9 @@
 }
 
 body {
-    background: #fafafa;
+    background: #f5fdffeb;
     font-family: 'Muli', sans-serif;
+    color: #0f0f0f;
     
 }
 
@@ -22,9 +23,11 @@ h1 {
 
 .faq {
     background-color: transparent;
+    color: #0f0f0f;
     border: 1px solid #9fa4a8;
     border-radius: 20px;
     margin: 10px 0;
+    top: 50px;
     padding: 20px;
     position: relative;
     overflow: hidden;
@@ -32,7 +35,7 @@ h1 {
 }
 
 .faq.active {
-    background-color: #f1f1f1;
+    background-color: #fff;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3x 6px rgba(0, 0, 0, 0.1);
 }
 
